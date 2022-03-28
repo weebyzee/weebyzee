@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://www.pinclipart.com/picdir/big/575-5751776_emoji-clipart-leaf-vector-marijuana-leaf-png-transparent.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          W by Z
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Center-content">
+            <ul className="no-bullets">
+              <li className="list-item">Quad (7grams)</li>
+              <li className="list-item">Half oz (14grams)</li>
+              <li className="list-item">Full Zip (28grams)</li>
+              <li className="list-item">4 pack of spliffs</li>
+              <li className="list-item">4 pack of prerolls</li>
+            </ul>
+        </div>
       </header>
+      
     </div>
   );
 }
